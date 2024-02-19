@@ -1,9 +1,9 @@
+import Pokedex from "./components/Pokedex/Pokedex";
+
 const App = () => {
   return (
     <div>
-       <h1 className="text-3xl  underline">
-        pokedex
-    </h1>
+      <Pokedex/>
     </div>
   );
 }
