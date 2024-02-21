@@ -1,11 +1,10 @@
 const Search = () => {
   return (
     <>
-      <input 
-        className="w-1/2 p-4 border-2 rounded text-center"
-        type="text" 
-        placeholder="which pokemon you're looking ?" 
-      />
+   
+    <div className="form-control p-4 w-[80%] sm:w-1/2 rounded text-center ">
+      <input type="text" placeholder="which pokemon you're looking ?" className="input input-bordered " />
+    </div>
     </>
   );
 };
